@@ -7,5 +7,5 @@ while r<len(gg):
    e+=(ord(dd[r])-ord(gg[r]))
    r+=1
 for r in range(r,len(dd)):
-   e+=ord(bb[r])-ord('a')+1
+   e+=ord(dd[r])-ord('a')+1
 print(e)
