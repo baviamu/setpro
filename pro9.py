@@ -1,3 +1,2 @@
-in=int(input())
-optr=in
-print(optr)
+ma444 = int(input())
+print(ma444)
