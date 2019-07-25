@@ -1,9 +1,9 @@
-ft=int(input())
-dt=list(map(int,input().split()))
-e=0
-for one in range(ft):
-    for two in range(one,ft):  
-        for three in range(two,ft):
-            if set[one]<set[two]<set[three]:
-                e+=1
-print(e)
+get=int(input())
+set=list(map(int,input().split()))
+go=0
+for one11 in range(get):
+    for two22 in range(one11,get):  
+        for three33 in range(two22,get):
+            if set[one11]<set[two22]<set[three33]:
+                go+=1
+print(go)
