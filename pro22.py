@@ -6,5 +6,5 @@ for l in range(h):
 	if l%2==0:
 		s96=s96+n[l]
 	else:
-		sy+=n[i]
+		sy+=n[l]
 print(max(s96,sy))
