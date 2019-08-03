@@ -6,7 +6,7 @@ for o in range(nn5):
 for o in range(nn5):
     for z in range(mm5-1):
         for d in range(z+1,mm5+1):
-            if g[o][z:k]==[1]*len(g[o][z:d]):
+            if g[o][z:d]==[1]*len(g[o][z:d]):
                  if all(g[b+o][z:d]==[1]*len(g[b+o][z:k]) for b in range(len(g[o][z:d])-1)):
                      if len(g[o][z:d])>r:
                         r=len(g[o][z:d])
