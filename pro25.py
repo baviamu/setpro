@@ -8,6 +8,6 @@ while(e<len(level11)-1):
         cnt+=1
         e+=1
     if(cnt>maxu):
-        maxu=count
+        maxu=cnt
     e+=1
 print(maxu+1)
