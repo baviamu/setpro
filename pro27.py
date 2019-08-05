@@ -10,7 +10,7 @@ crr=0
 
 for b in range(j):
 
-    xr1=vrr[b]/pr[b]
+    xr1=vrr[b]/prr[b]
 
     tr1.append(xr1)
 
