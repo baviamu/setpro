@@ -8,7 +8,7 @@ tr1=[]
 
 crr=0
 
-for b in range(o):
+for b in range(j):
 
     xr1=vrr[b]/pr[b]
 
