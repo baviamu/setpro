@@ -6,4 +6,4 @@ for o in range(bav):
     wdr.append(xox.zfill(deg))
     wdr.sort(key=(lambda x:x.count('1')))
 for o in wdr:
-    print(i)
+    print(o)
