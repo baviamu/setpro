@@ -1,11 +1,11 @@
-ws = int(input())
-xc = int(ws/2)
-bg = []
-for u in range(ws, xc, -1):
-    v = str(u)
-    if u + sum([int(paa) for paa in v]) == ws:
-        print(1)
-        print(u)
-        break
-else:
-    print(0) 
+bav,l11=map(str,input().split())
+vat=0
+if len(vizh)>len(l11):
+  bav,l11=l11,bav
+ptr1=0
+while ptr1<len(bav):
+  vat+=(ord(l11[ptr1])-ord(bav[ptr1]))
+  ptr1+=1
+for ptr1 in range(ptr1,len(l11)):
+  vat+=ord(l11[ptr1])-ord('a')+1
+print(vat)
