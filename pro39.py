@@ -1,6 +1,6 @@
 bav,l11=map(str,input().split())
 vat=0
-if len(vizh)>len(l11):
+if len(bav)>len(l11):
   bav,l11=l11,bav
 ptr1=0
 while ptr1<len(bav):
