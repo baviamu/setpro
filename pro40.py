@@ -1,4 +1,4 @@
-bavu="dhoni"
+bavu="Dhoni"
 nivu=input()
 amu=list(set(bavu)-set(nivu))
 chith26=list(set(nivu)-set(bavu))
