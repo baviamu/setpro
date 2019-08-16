@@ -11,7 +11,7 @@ if(bavi+chith<=3):
             sack=sack+'1'
 else:    
     for u in range(0,bavi+chith):
-        if(i==rbr):
+        if(u==rbr):
             sack=sack+'0'
             if(rbr==chith):
                 rbr=rbr+2
